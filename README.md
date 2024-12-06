@@ -9,7 +9,7 @@
     - Você pode utilizar apenas letras (maiúsculas ou minúsculas), dígitos e o caractere de sublinhado. 
     - Um identificador deve iniciar com uma letra (ou um sublinhado). Por exemplo, resultado, _placar, timeDeFutebol e plano9 são identificadores válidos, enquanto resultado%, timeDeFutebol$ e 9plano não são. 
 
-- Existem 3 tipos mais comuns de variáveis; 
+- Existem 4 tipos mais comuns de variáveis; 
     - String → Usada para armazenar caracteres (textos e símbolos).
     ````c#
     string nome = "José do egito";
@@ -21,6 +21,10 @@
     - double → usada para armazenar números reais.
      ````c#
     double altura = 1.70;
+    ````
+    - bool → true e false para inicializar uma variável bool ou passar um valor booleano de verdadeiro ou falso;
+    ````c#
+    bool check = true;
     ````
 </details>
 
