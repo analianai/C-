@@ -199,23 +199,13 @@ do { //Vai imprimir no console a contagem de 1 a 10
 
 - Declaração de array
 ````c#
-string semana = {"Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"};
+List<string> semana1 = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo" ];
 ````
 
 ````c#
-string semana = new string[] {"Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"};
+string[] semana = new string[] {"Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"};
 ````
 
-````c#
-string semana = new string[6];
-semana[0] = "Segunda";
-semana[1] = "Terça";
-semana[2] = "Quarta";
-semana[3] = "Quinta";
-semana[4] = "Sexta";
-semana[5] = "Sábado";
-semana[6] = "Domingo";
-````
 
 - Para acessar um valor referente ao índice do array:
 ````c#
